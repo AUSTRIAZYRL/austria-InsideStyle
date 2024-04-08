@@ -748,7 +748,15 @@ img {
 	color: var(--clr-secondary);
 	font-size: 2.5rem;
   }
-  
+  @media (max-width: 520px) {
+	.contacPage_wrapper{
+		flex-direction: column;
+		grid-template-columns: 1fr;
+		padding: 1rem;
+
+	}
+  }
+
   @media (max-width: 520px) {
 	.package_card {
 	  flex-direction: column;
